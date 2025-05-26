@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Cybersecurity",
+    "info": "I thrive in the ever-evolving world of cybersecurity, where I analyze threats, secure networks, and safeguard critical data. I’m passionate about proactively defending systems and ensuring digital resilience.",
+    "link": "/cyber",
+    "icon": "faShieldHalved"
+  },
+  {
+    "title": "Web Developer",
+    "info": "As a web developer, I love crafting responsive and efficient applications that enhance user experience. Solving complex problems with code and bringing ideas to life through technology excites me.",
+    "link": "/webdev",
+    "icon": "faWindowMaximize"
+  },
+  {
+    "title": "Graphic Designer",
+    "info": "While not my primary focus, I appreciate the role of design in making digital experiences visually appealing and user-friendly. I understand that good design complements functionality, creating a seamless and engaging interface.",
+    "link": "/designer",
+    "icon": "faObjectGroup"
+  }
+]

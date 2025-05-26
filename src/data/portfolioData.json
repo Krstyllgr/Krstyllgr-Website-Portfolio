@@ -1,0 +1,60 @@
+{
+  "cybersecurity": {
+    "title": "Cybersecurity Expertise",
+    "tools": [
+      {
+        "title": "Security Tools",
+        "items": [
+          "Nmap - Network Scanning",
+          "Burp Suite - Web Security Testing",
+          "Microsoft Azure - Cloud Computing Platform",
+          "Metskope - Cloud Security Platform"
+        ]
+      },
+      {
+        "title": "Security Practices",
+        "items": [
+          "Vulnerability Assessment",
+          "Penetration Testing",
+          "Security Auditing",
+          "Incident Response"
+        ]
+      }
+    ]
+  },
+  "development": {
+    "title": "Development Projects",
+    "projects": [
+      {
+        "title": "SEQRSCAN: A Mobile Application for Phishing Attack Mitigation",
+        "description": "This was our final year capstone project at university, where we developed a functional mobile application using React Native and JavaScript. We followed Software Development Life Cycle (SDLC) best practices within an agile environment to deliver rapid and efficient iterations throughout the project. As part of the development process, I designed and updated user interface layouts to meet both usability and performance standards. Additionally, I performed user experience (UX) quality assurance testing to identify issues and implement improvements, ensuring a smooth and user-friendly experience.",
+        "techStack": ["React Native", "Python", "Firebase", "VS Code", "GitHub"]
+      },
+      {
+        "title": "FusionNode Inc. Current Website",
+        "description": "Served as a key contributor to the development of FusionNode's website, delivering impactful features and improvements.",
+        "techStack": ["React.js", "Tailwind", "Next.js", "VS Code", "Github"]
+      }
+    ]
+  },
+  "design": {
+    "title": "Graphic Design Portfolio",
+    "designs": [
+      {
+        "title": "My Design Portfolio",
+        "portfolioLink": "https://www.canva.com/design/DAGM3DdUpAo/Afx_-AjYjzVkhxZs9oe5Iw/edit?utm_content=DAGM3DdUpAo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+        "description": "This is my portfolio where I showcase my design works, including Canva designs and Mailchimp email marketing materials.",
+        "tools": ["Canva", "Mailchimp"],
+        "categories": [
+          "Promotional Materials",
+          "Instagram Stories",
+          "Banners",
+          "Branding Designs",
+          "Welcome Emails",
+          "Promotional Emails",
+          "Landing Pages"
+        ]
+      }
+    ]
+  }
+} 

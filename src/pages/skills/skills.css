@@ -1,0 +1,28 @@
+.services-container {
+  height: 100vh;
+}
+
+.card {
+  height: 50vh;
+  width: 50vh;
+  border: 1px solid #0E8388;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  background: #1E1E1E;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(3, 246, 204, 0.2);
+}
+
+.p-details {
+  text-align: justify;
+  text-indent: 25px;
+}
+
+.card-icon {
+  margin-bottom: 20px;
+  color: #0E8388;
+}

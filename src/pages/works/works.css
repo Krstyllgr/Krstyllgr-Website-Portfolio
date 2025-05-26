@@ -1,0 +1,171 @@
+.works-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #2C3333;
+  min-height: 100vh;
+}
+
+.works-section {
+  margin-bottom: 4rem;
+  padding: 2rem;
+  background: #2C3333;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  border: 1px solid #0E8388;
+}
+
+.works-section h2 {
+  color: #CBE4DE;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* Cybersecurity Section */
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.tool-card {
+  background: #2C3333;
+  padding: 1.5rem;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  border: 1px solid #0E8388;
+}
+
+.tool-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(3, 246, 204, 0.2);
+}
+
+.tool-card h3 {
+  color: #CBE4DE;
+  margin-bottom: 1rem;
+}
+
+.tool-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.tool-card li {
+  margin-bottom: 0.5rem;
+  color: #CBE4DE;
+}
+
+/* Development Projects Section */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.project-card {
+  background: #2C3333;
+  padding: 1.5rem;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  border: 1px solid #0E8388;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(3, 246, 204, 0.2);
+}
+
+.project-card h3 {
+  color: #CBE4DE;
+  margin-bottom: 1rem;
+}
+
+.project-card p {
+  color: #CBE4DE;
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.tech-stack span {
+  background: #2C3333;
+  padding: 0.25rem 0.75rem;
+  border-radius: 15px;
+  font-size: 0.875rem;
+  color: #0E8388;
+  border: 1px solid #0E8388;
+}
+
+/* Graphic Design Section */
+.design-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.design-card {
+  background: #2C3333;
+  padding: 1.5rem;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  border: 1px solid #0E8388;
+  text-decoration: none;
+  color: #CBE4DE;
+}
+
+.design-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(3, 246, 204, 0.2);
+}
+
+.design-card h3 {
+  color: #CBE4DE;
+  margin-bottom: 1rem;
+}
+
+.design-card p {
+  color: #CBE4DE;
+  margin-bottom: 1rem;
+}
+
+.design-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 10px;
+}
+
+.design-tools span {
+  background: #2C3333;
+  padding: 0.25rem 0.75rem;
+  border-radius: 15px;
+  font-size: 0.875rem;
+  color: #0E8388;
+  border: 1px solid #0E8388;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .works-container {
+    padding: 1rem;
+  }
+
+  .works-section {
+    padding: 1rem;
+  }
+
+  .tools-grid,
+  .projects-grid,
+  .design-grid {
+    grid-template-columns: 1fr;
+  }
+}

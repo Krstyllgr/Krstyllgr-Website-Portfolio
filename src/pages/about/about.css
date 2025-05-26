@@ -1,0 +1,41 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  margin-top: 4vh;
+  gap: 4rem;
+}
+
+.myAboutImage {
+  margin: 0;
+  max-width: 100%;
+}
+
+.AboutMeImg {
+  width: 60vh;
+  height: 60vh;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.myAboutDetails {
+  color: #CBE4DE;
+  width: 90vh;
+  margin: 0;
+}
+
+.myAboutDetails h6, li {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 4vh;
+  text-align: justify;
+}
+
+.myAboutDetails h1, h5 {
+  color: #0E8388;
+}
+
+.myAboutDetails h5 {
+  margin-top: 4vh;
+}
